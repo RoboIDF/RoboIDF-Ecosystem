@@ -22,7 +22,7 @@ def read_csv(path,*,split,seed):
     if not all(math.isfinite(t) for t in times):
         raise ValueError('finite timestamps required')
     dt=times[1]-times[0]
-    if dt<=0 or any(not math.isclose(b-a,dt,rel_tol=1e-8,abs_tol=1e-12) for a,b in zip(times,times[1:])):
+    if dt<=0 or any(b <= a or not math.isclose(b-a,dt,rel_tol=1e-8,abs_tol=0.) for a,b in zip(times,times[1:])):
         raise ValueError('strictly increasing uniformly sampled timestamps required')
     return Dataset(dt,tuple(float(r['velocity_m_s']) for r in rows),
                    tuple(float(r['effort_n']) for r in rows[:-1]),split,seed)

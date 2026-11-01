@@ -11,3 +11,9 @@ class AdapterTests(unittest.TestCase):
             with self.subTest(body=body), tempfile.TemporaryDirectory() as d:
                 p=Path(d)/'data.csv';p.write_text(body)
                 with self.assertRaises(ValueError): read_csv(p,split='train',seed=0)
+
+    def test_tiny_nonmonotonic_timestamps_rejected(self):
+        with tempfile.TemporaryDirectory() as d:
+            p=Path(d)/'data.csv'
+            p.write_text('time_s,velocity_m_s,effort_n\n0,0,1\n1e-13,0,1\n1e-13,0,1\n0,0,\n')
+            with self.assertRaises(ValueError): read_csv(p,split='train',seed=0)
