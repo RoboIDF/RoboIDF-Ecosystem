@@ -1,0 +1,29 @@
+{
+  "adapter": {
+    "dataset_version": "m0.v1",
+    "kind": "hardware-pending",
+    "schema_version": "interface.v1"
+  },
+  "authorization": "pending",
+  "clock": {
+    "domain": "monotonic",
+    "unit": "s"
+  },
+  "id": "synthetic-slider",
+  "joints": [
+    {
+      "effort_unit": "N",
+      "name": "slider",
+      "position_unit": "m",
+      "type": "prismatic",
+      "velocity_unit": "m/s"
+    }
+  ],
+  "mode": "hardware",
+  "schema_version": "interface.v1",
+  "source": {
+    "license": "synthetic-test-fixture",
+    "provenance": "generated fixture; no device data",
+    "uri": "synthetic://roboidf/slider"
+  }
+}

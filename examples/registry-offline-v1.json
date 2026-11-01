@@ -1,0 +1,46 @@
+{
+  "contract": {
+    "adapter": {
+      "dataset_version": "m0.v1",
+      "kind": "offline-csv",
+      "schema_version": "interface.v1"
+    },
+    "authorization": "offline-only",
+    "clock": {
+      "domain": "monotonic",
+      "unit": "s"
+    },
+    "id": "synthetic-slider",
+    "joints": [
+      {
+        "effort_unit": "N",
+        "name": "slider",
+        "position_unit": "m",
+        "type": "prismatic",
+        "velocity_unit": "m/s"
+      }
+    ],
+    "mode": "offline",
+    "schema_version": "interface.v1",
+    "source": {
+      "license": "synthetic-test-fixture",
+      "provenance": "generated fixture; no device data",
+      "uri": "synthetic://roboidf/slider"
+    }
+  },
+  "evidence": {
+    "dataset_sha256": "d97ba6c667d9c0de13bfeb14839a24084e8cf35fd7fe3f3a3215a63152d3514e",
+    "kind": "synthetic-csv-roundtrip",
+    "samples": 8,
+    "seed": 91
+  },
+  "id": "synthetic-csv",
+  "implementation": "builtin-csv-v1",
+  "level": "offline-synthetic",
+  "schema_version": "registry.v1",
+  "source": {
+    "license": "synthetic-test-fixture",
+    "provenance": "generated fixture; no device data",
+    "uri": "synthetic://roboidf/slider"
+  }
+}

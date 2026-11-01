@@ -1,0 +1,1 @@
+<mujoco model="synthetic-fixture"><worldbody><body name="slider"><joint type="slide" axis="1 0 0"/><geom type="sphere" size="0.1"/></body></worldbody></mujoco>

@@ -1,0 +1,26 @@
+{
+  "mjcf": {
+    "execution_authorized": false,
+    "hardware_status": "pending",
+    "input_sha256": "d231ddf93b2d0f44dcf513dd6b41661b641d9641fea3275b3d4c18d9dccffe3b",
+    "kind": "mjcf",
+    "limitation": "No engine load, dynamics, external asset or cross-engine validation",
+    "passed": true,
+    "schema_version": "interface.v1",
+    "scope": "structure-only",
+    "source_sha256": "29b1d6a5c3ae39ea4ca0e7b60bed13cf6064cc32249bb5b1da2fbe3e75577ff4",
+    "twin_status": "pending"
+  },
+  "usd": {
+    "execution_authorized": false,
+    "hardware_status": "pending",
+    "input_sha256": "f0254a166e2ebf708b46fd0bcdbfe104a2562e18b2fd4680264e5ba8d8226ed1",
+    "kind": "usd",
+    "limitation": "No engine load, dynamics, external asset or cross-engine validation",
+    "passed": true,
+    "schema_version": "interface.v1",
+    "scope": "header-only",
+    "source_sha256": "29b1d6a5c3ae39ea4ca0e7b60bed13cf6064cc32249bb5b1da2fbe3e75577ff4",
+    "twin_status": "pending"
+  }
+}

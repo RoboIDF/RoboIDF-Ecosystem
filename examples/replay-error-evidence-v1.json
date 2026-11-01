@@ -1,0 +1,23 @@
+{
+  "config": {
+    "alignment": "exact",
+    "rmse_limit_per_joint_in_declared_unit": 0.01
+  },
+  "execution_authorized": false,
+  "hardware_status": "pending",
+  "metrics": [
+    {
+      "joint": "slider",
+      "max_abs_error": 0.03,
+      "passed": false,
+      "rmse": 0.017320508075688773,
+      "unit": "m/s"
+    }
+  ],
+  "passed": false,
+  "reference_sha256": "b4edc3ebfbde44610deff7f691bcd63a5248b988da88148b8f18f0bc95e6cccd",
+  "replay_sha256": "22702dae14a8ff1fb5da9ce7beadf427860cd772deae3e91377bb91febe9798c",
+  "schema_version": "interface.v1",
+  "scope": "offline-replay-comparison",
+  "twin_status": "pending"
+}

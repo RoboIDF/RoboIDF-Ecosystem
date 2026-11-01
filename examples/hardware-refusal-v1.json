@@ -1,0 +1,16 @@
+{
+  "execution_authorized": false,
+  "hardware_status": "pending",
+  "input_sha256": "2a58ae0755ea12650a94f7e6844fc2e82c0895c8737960ba34c38b4e91710d44",
+  "missing_evidence": [
+    "sdk",
+    "calibration",
+    "approval",
+    "stop"
+  ],
+  "passed": false,
+  "reason": "HARDWARE_DISABLED: evidence is not verified; this tool never drives hardware",
+  "schema_version": "interface.v1",
+  "scope": "hardware-precheck-only",
+  "twin_status": "pending"
+}

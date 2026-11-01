@@ -1,0 +1,32 @@
+{
+  "clock_domain": "monotonic",
+  "joint_names": [
+    "slider"
+  ],
+  "schema_version": "interface.v1",
+  "source": {
+    "license": "synthetic-test-fixture",
+    "provenance": "generated fixture; no device data",
+    "uri": "synthetic://roboidf/slider"
+  },
+  "time": [
+    0.0,
+    0.1,
+    0.2
+  ],
+  "time_unit": "s",
+  "velocity": [
+    [
+      0.0
+    ],
+    [
+      0.1
+    ],
+    [
+      0.2
+    ]
+  ],
+  "velocity_units": [
+    "m/s"
+  ]
+}

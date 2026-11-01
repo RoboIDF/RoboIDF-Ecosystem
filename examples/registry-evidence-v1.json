@@ -1,0 +1,17 @@
+{
+  "evidence": {
+    "dataset_sha256": "d97ba6c667d9c0de13bfeb14839a24084e8cf35fd7fe3f3a3215a63152d3514e",
+    "kind": "synthetic-csv-roundtrip",
+    "samples": 8,
+    "seed": 91
+  },
+  "execution_authorized": false,
+  "hardware_status": "pending",
+  "manifest_sha256": "f3abd02bb7ebfd184a91aea7414a41c5ff3083d68f6c096c1b9dd09012be3202",
+  "passed": true,
+  "plugin_id": "synthetic-csv",
+  "registry_version": "registry.v1",
+  "schema_version": "interface.v1",
+  "scope": "offline-synthetic",
+  "twin_status": "pending"
+}
