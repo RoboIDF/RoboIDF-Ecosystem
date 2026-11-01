@@ -11,3 +11,4 @@ python = "3.12.*"
 
 [tasks]
 info = "python -c \"from pathlib import Path; print(Path('README.md').read_text())\""
+website = "python -m http.server 8765 --bind 127.0.0.1 --directory website/dist"

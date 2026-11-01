@@ -80,3 +80,13 @@ pixi run --locked python --version
 当前未选择项目许可证；公开可见不代表已授予开源再分发许可。
 
 2026-11-01 独立仓库验证：`pixi install` 成功，`pixi run --locked info` 与 README 一致；Python 解释器位于本仓库 `.pixi/envs/default`，仓库内文档链接检查通过。
+
+## 社区网站（2026-11-01）
+
+首版门户包含项目与论文入口、可筛选适配路线图、L0–L3 证据等级及 GitHub 贡献入口。
+源码在 `website/dist/`；贡献指南见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+`pixi run website` 启动本地预览。本站没有站内账号、发帖或上传服务，协作由 GitHub 承担。
+浏览器检查已确认机械臂筛选只显示一个对应方向；JavaScript 语法检查通过。
+网站目录表示规划，不代表已有经过验收的适配器。
+
+公开网站：https://roboidf-community.agile-auk-4941.chatgpt.site （Sites v1，2026-11-01 发布成功）。

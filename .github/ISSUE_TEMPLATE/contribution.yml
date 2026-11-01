@@ -1,0 +1,23 @@
+name: 社区贡献提案
+description: 提出设备适配、数据、模型或文档贡献
+title: '[Contribution] '
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 贡献目标与范围
+      description: 设备型号、控制模式、SDK 版本或文档改进目标
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 当前证据与限制
+      description: 已完成的检查、尚未验证的能力、期望的 L0–L3 等级
+    validations:
+      required: true
+  - type: textarea
+    id: provenance
+    attributes:
+      label: 来源与许可
+      description: 请勿上传凭据、私人数据或无权分发的资产
