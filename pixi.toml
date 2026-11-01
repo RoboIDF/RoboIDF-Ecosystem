@@ -12,3 +12,11 @@ python = "3.12.*"
 [tasks]
 info = "python -c \"from pathlib import Path; print(Path('README.md').read_text())\""
 website = "python -m http.server 8765 --bind 127.0.0.1 --directory website/dist"
+
+[pypi-dependencies]
+roboidf = { git = "https://github.com/RoboIDF/RoboIDF.git", rev = "3ca3f9372779373800af3e906d66db19099c3c77" }
+
+[tasks.demo]
+cmd = "python adapter.py"
+[tasks.test]
+cmd = "python -m unittest discover -s tests -v"

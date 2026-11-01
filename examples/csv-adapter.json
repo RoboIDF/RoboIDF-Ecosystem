@@ -1,0 +1,12 @@
+{
+  "schema_version": "m0.v1",
+  "name": "example-csv-v1",
+  "scope": "synthetic-offline-only",
+  "hardware_support": false,
+  "evidence": "pixi run test && pixi run demo",
+  "units": {"time": "s", "velocity": "m/s", "effort": "N"},
+  "device": null,
+  "sdk": null,
+  "community_level": "pending",
+  "limitations": ["scalar discrete plant only", "uniform timestamps required", "no hardware commands"]
+}
